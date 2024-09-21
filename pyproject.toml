@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_cxh_deeplx"
+description = "NODES:CXH_DeepLX_Free, CXH_DeepLX_translate"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["PyDeepLX"]
+
+[project.urls]
+Repository = "https://github.com/StartHua/Comfyui_CXH_DeepLX"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_CXH_DeepLX"
+Icon = ""
